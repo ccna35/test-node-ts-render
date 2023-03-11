@@ -2,7 +2,7 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "build": "tsc",
+    "build": "npm install && tsc",
     "start": "node ./dist/index.js"
   },
   "dependencies": {
